@@ -1,0 +1,15 @@
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\bin\Debug\JuicyLauncher.exe
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\bin\Debug\JuicyLauncher.pdb
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.MainForm.resources
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.Settings.resources
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.exe
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.pdb
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.ShowDownload.resources
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.DebugHost.resources
+C:\Documents and Settings\Administrator\桌面\JuicyLauncher\JuicyLauncher\obj\x86\Debug\JuicyLauncher.DebugWiz.resources
+M:\定制启动器\JuicyLauncher\obj\x86\Debug\JuicyLauncher.exe
+M:\定制启动器\JuicyLauncher\obj\x86\Debug\JuicyLauncher.pdb

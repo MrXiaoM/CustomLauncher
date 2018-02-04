@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3F683AA-31A2-4221-916A-27550581F61E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomLauncher</RootNamespace>
+    <AssemblyName>CustomLauncher</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Xiao_M头像.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.WMPLib">
+      <HintPath>E:\C# 制作RPG游戏电子书随书光盘\工程文件\rpg10\rpg\bin\Debug\Interop.WMPLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsMCI.cs" />
+    <Compile Include="DebugHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugHost.Designer.cs">
+      <DependentUpon>DebugHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebugWiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugWiz.Designer.cs">
+      <DependentUpon>DebugWiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownloadGame.Designer.cs">
+      <DependentUpon>DownloadGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExForm.Designer.cs">
+      <DependentUpon>ExForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicsPathHelper.cs" />
+    <Compile Include="HelloMinecraft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelloMinecraft.Designer.cs">
+      <DependentUpon>HelloMinecraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageDrawRect.cs" />
+    <Compile Include="Launcher.cs" />
+    <Compile Include="MinecraftServer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoundStyle.cs" />
+    <Compile Include="Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDownload.Designer.cs">
+      <DependentUpon>ShowDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkinForm.designer.cs">
+      <DependentUpon>SkinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Win32.cs" />
+    <EmbeddedResource Include="DebugHost.resx">
+      <DependentUpon>DebugHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugWiz.resx">
+      <DependentUpon>DebugWiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadGame.resx">
+      <DependentUpon>DownloadGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExForm.resx">
+      <DependentUpon>ExForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelloMinecraft.resx">
+      <DependentUpon>HelloMinecraft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDownload.resx">
+      <DependentUpon>ShowDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkinForm.resx">
+      <DependentUpon>SkinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="7z.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="7z.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bgmusic.mp3" />
+    <Content Include="Xiao_M头像.ico" />
+    <None Include="Resources\main_light_bkg_top123.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
