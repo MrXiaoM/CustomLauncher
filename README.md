@@ -1,2 +1,2 @@
 # CustomLauncher
-自定义我的世界启动器一枚
+弃坑了弃坑了，想填坑的Fork去吧
